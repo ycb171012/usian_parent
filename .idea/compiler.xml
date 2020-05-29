@@ -9,9 +9,9 @@
         <module name="lyupadteload" />
         <module name="ly-api-gateway" />
         <module name="leyoucommon" />
-        <module name="lysearch" />
         <module name="ly-item-interface" />
         <module name="ly-search" />
+        <module name="leyousearch" />
         <module name="ly-item-service" />
         <module name="ly-registry" />
       </profile>
@@ -19,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="leyou" target="1.8" />
       <module name="leyoucommon" target="1.8" />
+      <module name="leyousearch" target="1.8" />
       <module name="ly-api-gateway" target="1.8" />
       <module name="ly-item" target="1.8" />
       <module name="ly-item-interface" target="1.8" />
@@ -33,6 +34,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="leyou" options="-parameters" />
       <module name="leyoucommon" options="-parameters" />
+      <module name="leyousearch" options="-parameters" />
       <module name="ly-api-gateway" options="-parameters" />
       <module name="ly-item" options="-parameters" />
       <module name="ly-item-interface" options="-parameters" />
