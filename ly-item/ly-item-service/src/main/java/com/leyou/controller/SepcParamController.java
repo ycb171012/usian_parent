@@ -48,4 +48,15 @@ public class SepcParamController {
       }
 
 
+
+    /**
+     *  查询规格参数
+     * @param cid
+     * @return
+     */
+    @RequestMapping("paramsBycid")
+    public List<SepcParam> findSepcParamAndSearching(@RequestParam(value = "cid") Long cid){
+
+        return  sepcParamService.findSepcParamAndSearching(cid);
+    }
 }

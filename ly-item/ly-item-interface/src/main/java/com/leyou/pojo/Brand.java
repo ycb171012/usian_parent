@@ -1,7 +1,6 @@
 package com.leyou.pojo;
 
 import javax.persistence.*;
-
 @Table(name="tb_brand")
 public class Brand {
 

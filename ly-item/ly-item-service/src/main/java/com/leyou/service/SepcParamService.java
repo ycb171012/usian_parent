@@ -36,4 +36,16 @@ public class SepcParamService {
         sepcParamMapper.deleteByPrimaryKey(id);
     }
 
+
+    /**
+     *  查询规格参数
+     * @param cid
+     * @return
+     */
+    public List<SepcParam> findSepcParamAndSearching(Long cid) {
+        SepcParam sepcParam = new SepcParam();
+        sepcParam.setCid(cid);
+        sepcParam.setSearching(true);
+        return sepcParamMapper.select(sepcParam);
+    }
 }
