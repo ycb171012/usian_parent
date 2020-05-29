@@ -10,6 +10,7 @@
         <module>leyou-common</module>
         <module>ly-upadteload</module>
         <module>ly-search</module>
+        <module>ly-search</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -9,6 +9,7 @@
         <module name="lyupadteload" />
         <module name="ly-api-gateway" />
         <module name="leyoucommon" />
+        <module name="lysearch" />
         <module name="ly-item-interface" />
         <module name="ly-search" />
         <module name="ly-item-service" />
